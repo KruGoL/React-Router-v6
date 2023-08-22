@@ -1,10 +1,10 @@
-import "./App.css";
 import { Layout } from "./components/Layout";
 import { Routes, Route } from "react-router-dom";
-import { HomePage } from "./components/HomePage";
-import { AboutPage } from "./components/AboutPage";
-import { PostsPage } from "./components/PostsPage";
-import { NotFoundPage } from "./components/NotFoundPage";
+import { HomePage } from './pages/HomePage';
+import { AboutPage } from './pages/AboutPage';
+import { PostsPage } from './pages/PostsPage';
+import { NotFoundPage } from './pages/NotFoundPage';
+
 
 function App() {
 	return (
