@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const PostsPage = () => {
 	const [posts, setPosts] = useState([]);
+	//console.log(useLocation());
 
 	useEffect(() => {
 		fetch("https://jsonplaceholder.typicode.com/posts")
