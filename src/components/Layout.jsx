@@ -22,7 +22,7 @@ export const Layout = () => {
 				<CustomLink to="/about">About</CustomLink>
 			</div>
 
-			<main className="container">
+			<main >
 				<Outlet />
 			</main>
 
