@@ -41,7 +41,7 @@ export const Layout = () => {
 				)}
 			</div>
 
-			<main>
+			<main className="container">
 				<Outlet />
 			</main>
 

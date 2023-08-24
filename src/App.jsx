@@ -12,7 +12,7 @@ import { RequireAuth } from "./hoc/RequireAuth";
 
 function App() {
 	return (
-		<>
+		<div className="app">
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<HomePage />} />
@@ -37,7 +37,7 @@ function App() {
 					<Route path="*" element={<NotFoundPage />} />
 				</Route>
 			</Routes>
-		</>
+		</div>
 	);
 }
 
